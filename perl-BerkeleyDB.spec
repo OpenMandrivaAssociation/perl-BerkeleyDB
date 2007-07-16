@@ -1,6 +1,6 @@
 %define module	BerkeleyDB
 %define name	perl-%{module}
-%define version	0.31
+%define version	0.32
 %define release	%mkrel 1
 
 Name:		%{name}
@@ -10,7 +10,7 @@ Summary:	Perl module for BerkeleyDB 2.x and greater
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
-Source:		http://www.cpan.org/modules/by-module/BerkeleyDB/%{module}-%{version}.tar.bz2
+Source:		http://www.cpan.org/modules/by-module/BerkeleyDB/%{module}-%{version}.tar.gz
 BuildRequires:	db4-devel
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
