@@ -13,6 +13,7 @@ URL:		http://search.cpan.org/dist/%{module}
 Source:		http://www.cpan.org/modules/by-module/BerkeleyDB/%{module}-%{version}.tar.gz
 BuildRequires:	db4-devel
 BuildRequires:	perl-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 BerkeleyDB is a module which allows Perl programs to make use of the
