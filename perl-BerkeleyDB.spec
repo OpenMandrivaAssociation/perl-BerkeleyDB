@@ -11,6 +11,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
 Source:		http://www.cpan.org/modules/by-module/BerkeleyDB/%{module}-%{version}.tar.gz
+Patch0:		BerkeleyDB-0.38-wformat.patch
 BuildRequires:	db4-devel
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
@@ -33,6 +34,7 @@ For further details see the documentation in the file BerkeleyDB.pod.
 chmod 644 Changes README
 # ignore pod test failure
 rm -f t/pod.t
+%patch0 -p1 -b .wformat
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
