@@ -1,6 +1,6 @@
 %define module	BerkeleyDB
 %define name	perl-%{module}
-%define version	0.38
+%define version	0.39
 %define release	%mkrel 1
 
 Name:		%{name}
