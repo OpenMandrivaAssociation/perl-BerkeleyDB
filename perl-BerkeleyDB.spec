@@ -1,9 +1,9 @@
 %define upstream_name	 BerkeleyDB
-%define upstream_version 0.42
+%define upstream_version 0.43
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:	Perl module for BerkeleyDB 2.x and greater
 License:	GPL+ or Artistic
