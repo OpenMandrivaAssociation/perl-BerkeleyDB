@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:	Perl module for BerkeleyDB 2.x and greater
 License:	GPL+ or Artistic
@@ -11,8 +11,7 @@ Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/BerkeleyDB/%{upstream_name}-%{upstream_version}.tar.gz
 Patch0:		BerkeleyDB-0.38-wformat.patch
-
-BuildRequires:	db4-devel
+BuildRequires:	db-devel
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
