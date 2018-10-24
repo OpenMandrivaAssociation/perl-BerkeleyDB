@@ -1,4 +1,5 @@
 removed_sources:
   BerkeleyDB-0.51.tar.gz: 913b0b361e3de1967c821a21a4db823f6179e2b3
-sources:
   BerkeleyDB-0.54.tar.gz: eda2b2420544876dbcc9578e508f3cfb82f1f2ed
+sources:
+  BerkeleyDB-0.55.tar.gz: 3d50bce0ccb0cf3426a270344d8f1b8445059816

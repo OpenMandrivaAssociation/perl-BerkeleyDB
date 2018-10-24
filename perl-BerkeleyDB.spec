@@ -1,9 +1,9 @@
 %define upstream_name	 BerkeleyDB
-%define upstream_version 0.54
+%define upstream_version 0.55
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    9
+Release:    1
 
 Summary:	Perl module for BerkeleyDB 2.x and greater
 
