@@ -1,16 +1,16 @@
 %define upstream_name	 BerkeleyDB
-%define upstream_version 0.55
+%define upstream_version 0.67
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    3
+Version:    %{upstream_version}
+Release:    1
 
 Summary:	Perl module for BerkeleyDB 2.x and greater
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-URL:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/%{upstream_name}/%{upstream_name}-%{upstream_version}.tar.gz
+URL:		https://github.com/pmqs/BerkeleyDB
+Source0:	https://cpan.metacpan.org/authors/id/P/PM/PMQS/BerkeleyDB-%{upstream_version}.tar.gz
 BuildRequires:	make
 BuildRequires:	db-devel
 BuildRequires:	perl-devel
