@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %{upstream_version}
-Release:    1
+Release:    2
 
 Summary:	Perl module for BerkeleyDB 2.x and greater
 
@@ -13,6 +13,7 @@ URL:		https://github.com/pmqs/BerkeleyDB
 Source0:	https://cpan.metacpan.org/authors/id/P/PM/PMQS/BerkeleyDB-%{upstream_version}.tar.gz
 BuildRequires:	make
 BuildRequires:	db-devel
+BuildRequires: perl(Test::More)
 BuildRequires:	perl-devel
 
 %description
